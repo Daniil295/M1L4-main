@@ -42,7 +42,7 @@ def info(message):
     if message.from_user.username in Pokemon.pokemons.keys():
         pok = Pokemon.pokemons[message.from_user.username]
         bot.send_message(message.chat.id, '''
-                         создайте покемона''')
+                         создайте покемона ок?''')
     else:
         bot.send_message(message.chat.id, '''
                          это покемон его поймали с помощью покебола ну а дальше я хз что обеснять :\
